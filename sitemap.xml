@@ -6,7 +6,12 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://pradyothadavi.github.io/protobuffer-exemplar/setup/</loc>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://pradyothadavi.github.io/protobuffer-exemplar/examples/</loc>
      <lastmod>2019-07-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
