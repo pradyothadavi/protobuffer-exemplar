@@ -4,8 +4,7 @@ repo_url: https://github.com/pradyothadavi/protobuffer-exemplar
 site_author: Pradyot H Adavi
 
 theme:
-  name: readthedocs
-  highlightjs: true
+  name: material
 
 nav:
   - 'Introduction': index.md
