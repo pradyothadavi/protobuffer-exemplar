@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "name.proto";
+
+option java_package = "model.proto";
+option java_multiple_files = true;
+
+message Person {
+
+    Name name = 16;
+
+    uint64 age = 17;
+}
