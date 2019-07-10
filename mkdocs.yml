@@ -1,0 +1,7 @@
+site_name: Protobuff Exemplar
+site_url: https://pradyothadavi.github.io/protobuffer-exemplar/
+repo_url: https://github.com/pradyothadavi/protobuffer-exemplar
+site_author: Pradyot H Adavi
+nav:
+  - 'Introduction': index.md
+  - 'Setup': setup.md
