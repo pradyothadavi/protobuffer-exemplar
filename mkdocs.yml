@@ -2,6 +2,12 @@ site_name: Protobuff Exemplar
 site_url: https://pradyothadavi.github.io/protobuffer-exemplar/
 repo_url: https://github.com/pradyothadavi/protobuffer-exemplar
 site_author: Pradyot H Adavi
+
+theme:
+  name: readthedocs
+  highlightjs: true
+
 nav:
   - 'Introduction': index.md
-  - 'Setup': setup.md
+  - 'Setup': protocsetup.md
+  - 'Examples': examples.md
