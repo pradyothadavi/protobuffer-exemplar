@@ -81,11 +81,33 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#proto-compiler-installation">Proto Compiler Installation</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h2 id="proto-compiler-installation">Proto Compiler Installation</h2>
+<ul>
+<li>Find the latest release of protobuf compiler
+  <a href="https://github.com/protocolbuffers/protobuf/releases">here</a></li>
+<li>Based on the choose of the language, download the .zip file</li>
+<li>Extract the contents of the file </li>
+<li>Execute the below commands</li>
+</ul>
+<pre><code>$ cd protobuf-&lt;version_no&gt;
+
+$ ./configure
+
+$ make
+
+$ make check
+
+$ sudo make install
+
+$ which protoc
+
+$ protoc --version
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">
