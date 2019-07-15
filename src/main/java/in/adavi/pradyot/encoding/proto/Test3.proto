@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "Test1.proto";
+
+option java_package = "model.proto";
+option java_multiple_files = true;
+
+message Test3 {
+    Test1 c = 3;
+}
